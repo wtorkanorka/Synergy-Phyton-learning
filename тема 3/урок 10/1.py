@@ -22,7 +22,6 @@ pet_info = {
 }
 pets[f"{petName}"] = pet_info
 
-
 print(
     f"Это {pets[petName]['Вид питомца']} по кличке :{petName}, возраст питомца : {pets[petName]['возраст']}, имя владельца : {pets[petName]['Имя хозяина']}"
 )
